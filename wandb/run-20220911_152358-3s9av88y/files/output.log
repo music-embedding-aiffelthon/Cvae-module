@@ -1,0 +1,11 @@
+
+genre_encoder=0
+
+
+
+
+
+Epoch 1:  24%|████████▎                         | 11/45 [00:25<01:19,  2.34s/it]
+genre_encoder=1
+genre_encoder=0
+Epoch 1:   0%|                                           | 0/45 [00:00<?, ?it/s]

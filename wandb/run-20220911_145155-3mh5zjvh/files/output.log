@@ -1,0 +1,12 @@
+
+genre_encoder=0
+
+
+
+Epoch 1:   6%|██                               | 22/362 [00:22<05:54,  1.04s/it]
+genre_encoder=0
+Epoch 1:   0%|                                           | 0/45 [00:00<?, ?it/s]
+genre_encoder=0
+Epoch 1:   0%|                                           | 0/45 [00:00<?, ?it/s]
+genre_encoder=0
+tcmalloc: large alloc 5901385728 bytes == 0x850994000 @  0x7feb25400680 0x7feb25421824 0x7feac96da064 0x7feac96da7ff 0x7feac9738fc5 0x7feac973a99b 0x7feac97d8a7b 0x5c6617 0x570b26 0x503e8f 0x5c1907 0x56b9fe 0x569dba 0x5f6eb3 0x50bc2c 0x5f839f 0x7feac9737d7c 0x7feac973a57e 0x7feac971c77d 0x7feac971d731 0x7feac973c109 0x7fe97fac2c3d 0x7fe97fac3851 0x7fe97fac6acc 0x7fe97fac1bd2 0x7fe97fac99e3 0x7fe97fab56e5 0x7fe97f885c29 0x7fe97f871781 0x5f6929 0x5f74f6

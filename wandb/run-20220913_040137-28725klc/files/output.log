@@ -1,0 +1,52 @@
+
+Loading dataset...
+Load song_meta.json...
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 707989/707989 [00:00<00:00, 828540.63it/s]
+9it [00:00, 15.99it/s]
+Load complete!
+
+
+
+
+
+
+165it [00:11, 14.03it/s]
+batch_size = 32
+learning rate = 0.0001
+train_size = 110017
+test_size = 27505
+Data load complete!
+
+
+
+
+
+21 train_loss : nan, test_loss : nan
+Traceback (most recent call last):
+  File "CAE_main.py", line 77, in <module>
+    trainer.train_model(train_dataloader, test_dataloader,num_epochs=config['pretrain_epoch'])
+  File "/home/anthonypark6904/genre_encoder/train_module.py", line 126, in train_model
+    self.train_epoch(epoch_idx, train_dataloader, test_dataloader)
+  File "/home/anthonypark6904/genre_encoder/train_module.py", line 140, in train_epoch
+    print(f'{batch} train_loss : {jax.device_get(train_loss.mean())}, test_loss : {jax.device_get(test_loss.mean())}', end='\r')
+  File "/usr/local/lib/python3.8/dist-packages/jax/_src/numpy/reductions.py", line 260, in mean
+    return _mean(a, _ensure_optional_axes(axis), dtype, out, keepdims,
+  File "/usr/local/lib/python3.8/dist-packages/jax/_src/device_array.py", line 265, in __array__
+    return np.asarray(self._value, dtype=dtype)
+  File "/usr/local/lib/python3.8/dist-packages/jax/interpreters/pxla.py", line 788, in _sda_value
+    npy_value[self.indices[i]] = self.device_buffers[i].to_py()
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "CAE_main.py", line 77, in <module>
+    trainer.train_model(train_dataloader, test_dataloader,num_epochs=config['pretrain_epoch'])
+  File "/home/anthonypark6904/genre_encoder/train_module.py", line 126, in train_model
+    self.train_epoch(epoch_idx, train_dataloader, test_dataloader)
+  File "/home/anthonypark6904/genre_encoder/train_module.py", line 140, in train_epoch
+    print(f'{batch} train_loss : {jax.device_get(train_loss.mean())}, test_loss : {jax.device_get(test_loss.mean())}', end='\r')
+  File "/usr/local/lib/python3.8/dist-packages/jax/_src/numpy/reductions.py", line 260, in mean
+    return _mean(a, _ensure_optional_axes(axis), dtype, out, keepdims,
+  File "/usr/local/lib/python3.8/dist-packages/jax/_src/device_array.py", line 265, in __array__
+    return np.asarray(self._value, dtype=dtype)
+  File "/usr/local/lib/python3.8/dist-packages/jax/interpreters/pxla.py", line 788, in _sda_value
+    npy_value[self.indices[i]] = self.device_buffers[i].to_py()
+KeyboardInterrupt

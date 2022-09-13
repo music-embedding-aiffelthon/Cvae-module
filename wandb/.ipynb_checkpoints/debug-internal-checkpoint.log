@@ -1,0 +1,542 @@
+2022-09-13 03:45:01,808 INFO    StreamThr :122055 [internal.py:wandb_internal():90] W&B internal server running at pid: 122055, started at: 2022-09-13 03:45:01.807833
+2022-09-13 03:45:01,810 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: status
+2022-09-13 03:45:01,811 DEBUG   SenderThread:122055 [sender.py:send_request():316] send_request: status
+2022-09-13 03:45:01,813 DEBUG   SenderThread:122055 [sender.py:send():302] send: header
+2022-09-13 03:45:01,813 INFO    WriterThread:122055 [datastore.py:open_for_write():75] open: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/run-2l6cua5n.wandb
+2022-09-13 03:45:01,813 DEBUG   SenderThread:122055 [sender.py:send():302] send: run
+2022-09-13 03:45:02,171 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: check_version
+2022-09-13 03:45:02,172 INFO    SenderThread:122055 [dir_watcher.py:__init__():216] watching files in: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files
+2022-09-13 03:45:02,172 INFO    SenderThread:122055 [sender.py:_start_run_threads():913] run started: 2l6cua5n with start time 1663040701.804745
+2022-09-13 03:45:02,172 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:02,173 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:02,173 DEBUG   SenderThread:122055 [sender.py:send_request():316] send_request: check_version
+2022-09-13 03:45:02,211 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: run_start
+2022-09-13 03:45:02,212 DEBUG   HandlerThread:122055 [meta.py:__init__():35] meta init
+2022-09-13 03:45:02,212 DEBUG   HandlerThread:122055 [meta.py:__init__():50] meta init done
+2022-09-13 03:45:02,212 DEBUG   HandlerThread:122055 [meta.py:probe():216] probe
+2022-09-13 03:45:02,213 DEBUG   HandlerThread:122055 [git.py:repo():40] git repository is invalid
+2022-09-13 03:45:02,213 DEBUG   HandlerThread:122055 [meta.py:_save_pip():54] save pip
+2022-09-13 03:45:02,214 DEBUG   HandlerThread:122055 [meta.py:_save_pip():68] save pip done
+2022-09-13 03:45:02,214 DEBUG   HandlerThread:122055 [meta.py:probe():254] probe done
+2022-09-13 03:45:02,239 DEBUG   SenderThread:122055 [sender.py:send():302] send: files
+2022-09-13 03:45:02,239 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-09-13 03:45:02,244 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 03:45:02,244 DEBUG   SenderThread:122055 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 03:45:02,371 DEBUG   SenderThread:122055 [sender.py:send():302] send: telemetry
+2022-09-13 03:45:02,746 INFO    Thread-16 :122055 [upload_job.py:push():138] Uploaded file /tmp/tmp5cfxgs0ewandb/bi271odm-wandb-metadata.json
+2022-09-13 03:45:03,174 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_created():275] file/dir created: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:45:03,174 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_created():275] file/dir created: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:45:03,174 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_created():275] file/dir created: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/requirements.txt
+2022-09-13 03:45:03,174 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_created():275] file/dir created: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-metadata.json
+2022-09-13 03:45:05,173 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:45:11,176 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:45:12,176 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:45:13,177 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:45:14,177 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:45:16,178 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:45:18,179 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:45:20,180 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:45:22,181 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:45:24,182 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:45:24,589 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 03:45:24,589 DEBUG   SenderThread:122055 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 03:45:25,182 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:45:26,183 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:45:30,298 DEBUG   SenderThread:122055 [sender.py:send():302] send: stats
+2022-09-13 03:45:33,186 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/config.yaml
+2022-09-13 03:45:39,735 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 03:45:39,735 DEBUG   SenderThread:122055 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 03:45:44,212 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:44,212 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:44,213 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:44,215 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:44,875 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:44,875 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:44,876 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:44,876 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:45,190 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:45:45,437 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:45,438 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:45,438 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:45,439 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:45,974 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:45,975 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:45,975 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:45,976 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:46,191 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:45:46,191 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:45:46,511 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:46,511 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:46,511 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:46,514 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:47,046 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:47,046 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:47,047 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:47,048 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:47,191 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:45:47,580 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:47,581 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:47,581 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:47,581 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:48,116 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:48,117 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:48,117 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:48,118 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:48,192 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:45:48,192 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:45:48,650 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:48,651 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:48,651 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:48,653 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:49,185 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:49,185 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:49,185 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:49,186 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:49,192 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:45:49,728 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:49,729 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:49,729 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:49,729 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:50,192 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:45:50,193 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:45:50,300 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:50,301 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:50,301 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:50,302 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:50,837 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:50,838 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:50,838 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:50,840 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:51,193 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:45:51,374 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:51,375 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:51,375 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:51,376 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:51,912 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:51,913 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:51,913 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:51,914 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:52,193 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:45:52,194 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:45:52,449 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:52,450 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:52,450 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:52,451 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:52,986 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:52,986 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:52,986 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:52,989 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:53,194 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:45:53,521 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:53,522 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:53,522 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:53,523 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:54,058 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:54,059 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:54,059 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:54,060 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:54,194 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:45:54,194 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:45:54,593 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:54,594 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:54,594 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:54,595 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:54,866 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 03:45:54,866 DEBUG   SenderThread:122055 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 03:45:55,129 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:55,129 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:55,130 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:55,132 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:55,194 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:45:55,665 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:55,666 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:55,666 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:55,667 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:56,195 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:45:56,195 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:45:56,200 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:56,201 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:56,201 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:56,201 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:56,738 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:56,738 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:56,739 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:56,739 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:57,195 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:45:57,273 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:57,273 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:57,273 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:57,276 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:57,808 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:57,809 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:57,809 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:57,810 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:58,196 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:45:58,196 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:45:58,343 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:58,343 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:58,344 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:58,344 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:58,878 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:58,879 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:58,879 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:58,880 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:59,196 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:45:59,413 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:59,414 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:59,414 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:59,416 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:45:59,953 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:45:59,953 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:45:59,953 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:45:59,954 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:00,196 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:46:00,197 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:00,387 DEBUG   SenderThread:122055 [sender.py:send():302] send: stats
+2022-09-13 03:46:00,490 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:00,490 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:00,491 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:00,491 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:01,025 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:01,026 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:01,026 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:01,027 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:01,197 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:01,560 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:01,561 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:01,561 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:01,563 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:02,095 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:02,095 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:02,096 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:02,096 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:02,197 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:46:02,198 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:02,630 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:02,630 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:02,631 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:02,632 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:03,167 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:03,167 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:03,168 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:03,168 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:03,198 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:03,701 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:03,702 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:03,702 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:03,703 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:04,198 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:46:04,198 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:04,239 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:04,239 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:04,239 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:04,240 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:04,777 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:04,777 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:04,778 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:04,778 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:05,198 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:05,314 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:05,314 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:05,314 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:05,315 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:05,869 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:05,869 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:05,869 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:05,870 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:06,199 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:46:06,199 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:06,412 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:06,413 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:06,413 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:06,413 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:06,950 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:06,951 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:06,951 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:06,952 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:07,199 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:07,484 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:07,485 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:07,485 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:07,485 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:08,018 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:08,019 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:08,019 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:08,020 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:08,200 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:46:08,200 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:08,555 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:08,556 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:08,556 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:08,557 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:09,089 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:09,090 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:09,090 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:09,091 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:09,200 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:09,623 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:09,624 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:09,624 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:09,625 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:09,998 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 03:46:09,998 DEBUG   SenderThread:122055 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 03:46:10,163 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:10,163 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:10,164 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:10,164 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:10,200 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:46:10,200 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:10,720 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:10,720 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:10,721 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:10,721 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:11,201 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:11,252 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:11,252 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:11,253 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:11,253 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:11,785 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:11,786 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:11,786 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:11,787 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:12,201 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:46:12,201 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:12,318 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:12,319 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:12,320 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:12,320 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:12,851 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:12,851 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:12,852 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:12,852 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:13,202 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:13,386 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:13,387 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:13,387 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:13,388 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:13,919 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:13,920 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:13,920 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:13,921 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:14,202 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:46:14,202 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:14,452 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:14,452 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:14,453 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:14,453 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:14,987 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:14,988 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:14,988 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:14,988 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:15,202 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:15,521 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:15,522 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:15,522 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:15,523 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:16,055 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:16,056 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:16,056 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:16,057 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:16,203 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:46:16,203 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:16,589 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:16,590 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:16,590 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:16,591 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:17,126 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:17,126 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:17,127 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:17,127 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:17,203 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:17,659 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:17,659 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:17,659 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:17,660 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:18,194 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:18,195 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:18,195 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:18,196 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:18,203 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:46:18,204 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:18,728 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:18,729 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:18,729 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:18,730 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:19,204 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:19,260 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:19,261 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:19,261 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:19,261 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:19,794 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:19,794 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:19,795 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:19,795 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:20,204 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:46:20,205 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:20,326 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:20,326 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:20,327 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:20,327 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:20,859 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:20,860 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:20,860 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:20,861 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:21,205 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:21,395 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:21,396 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:21,396 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:21,397 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:21,929 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:21,929 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:21,930 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:21,930 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:22,205 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:46:22,206 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:22,462 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:22,463 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:22,463 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:22,463 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:22,996 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:22,997 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:22,997 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:22,998 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:23,206 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:23,530 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:23,530 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:23,531 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:23,531 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:24,062 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:24,062 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:24,063 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:24,063 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:24,206 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:46:24,207 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:24,597 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:24,598 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:24,598 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:24,599 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:25,131 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-13 03:46:25,131 DEBUG   SenderThread:122055 [sender.py:send_request():316] send_request: stop_status
+2022-09-13 03:46:25,135 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:25,207 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:25,260 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:25,261 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:25,262 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:25,669 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:25,670 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:25,670 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:25,671 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:26,207 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:46:26,207 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:26,208 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:26,209 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:26,209 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:26,210 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:26,743 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:26,743 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:26,744 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:26,744 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:27,208 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:27,277 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:27,277 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:27,277 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:27,278 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:27,813 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:27,814 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:27,814 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:27,814 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:28,208 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:46:28,208 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:28,350 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:28,351 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:28,351 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:28,352 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:28,883 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:28,883 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:28,884 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:28,884 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:29,208 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:29,415 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:29,416 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:29,416 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:29,417 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:29,951 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:29,952 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:29,952 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:29,953 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:30,209 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:46:30,209 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:30,473 DEBUG   SenderThread:122055 [sender.py:send():302] send: stats
+2022-09-13 03:46:30,482 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:30,483 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:30,483 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:30,484 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:31,019 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:31,020 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:31,020 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:31,021 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:31,209 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:31,557 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:31,558 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:31,558 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:31,559 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:32,102 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:32,102 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:32,103 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:32,103 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:32,210 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:46:32,210 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:32,638 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:32,638 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:32,639 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:32,639 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:33,172 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:33,173 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:33,173 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:33,173 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:33,210 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:33,705 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:33,705 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:33,706 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:33,706 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:34,211 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:46:34,211 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:34,239 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:34,239 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:34,239 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:34,240 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:34,771 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:34,772 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:34,772 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:34,773 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:35,211 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:35,307 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:35,307 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:35,308 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:35,308 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:35,840 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:35,841 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:35,841 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:35,842 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:36,211 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:46:36,212 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:36,373 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:36,374 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:36,374 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:36,375 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:36,908 DEBUG   HandlerThread:122055 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-13 03:46:36,908 DEBUG   SenderThread:122055 [sender.py:send():302] send: history
+2022-09-13 03:46:36,909 DEBUG   SenderThread:122055 [sender.py:send():302] send: summary
+2022-09-13 03:46:36,909 INFO    SenderThread:122055 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-13 03:46:37,212 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/wandb-summary.json
+2022-09-13 03:46:38,212 INFO    Thread-12 :122055 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/genre_encoder/wandb/run-20220913_034501-2l6cua5n/files/output.log
+2022-09-13 03:47:00,547 DEBUG   SenderThread:122055 [sender.py:send():302] send: stats
+2022-09-13 03:47:30,622 DEBUG   SenderThread:122055 [sender.py:send():302] send: stats
+2022-09-13 03:48:00,701 DEBUG   SenderThread:122055 [sender.py:send():302] send: stats
+2022-09-13 03:48:30,778 DEBUG   SenderThread:122055 [sender.py:send():302] send: stats
+2022-09-13 03:49:00,857 DEBUG   SenderThread:122055 [sender.py:send():302] send: stats
+2022-09-13 03:49:30,933 DEBUG   SenderThread:122055 [sender.py:send():302] send: stats
+2022-09-13 03:50:01,009 DEBUG   SenderThread:122055 [sender.py:send():302] send: stats
+2022-09-13 03:50:31,086 DEBUG   SenderThread:122055 [sender.py:send():302] send: stats
+2022-09-13 03:51:01,164 DEBUG   SenderThread:122055 [sender.py:send():302] send: stats
+2022-09-13 03:51:31,242 DEBUG   SenderThread:122055 [sender.py:send():302] send: stats

@@ -1,0 +1,62 @@
+
+Loading dataset...
+Load song_meta.json...
+Load complete!
+Load file list...
+100%|██████████████████████████████████████████████████████████████████████████| 707989/707989 [00:00<00:00, 802092.66it/s]
+
+
+
+
+
+
+165it [00:11, 14.20it/s]
+batch_size = 32
+learning rate = 0.0001
+train_size = 110017
+test_size = 27505
+Data load complete!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1:  23%|█████████████████▌                                                          | 99/429 [01:14<04:07,  1.33it/s]
+Traceback (most recent call last):
+  File "CAE_main.py", line 77, in <module>
+    trainer.train_model(train_dataloader, test_dataloader,num_epochs=config['pretrain_epoch'])
+  File "/home/anthonypark6904/genre_encoder/train_module.py", line 126, in train_model
+    self.train_epoch(epoch_idx, train_dataloader, test_dataloader)
+  File "/home/anthonypark6904/genre_encoder/train_module.py", line 144, in train_epoch
+    create_png(test_batch[0], recon_x)
+NameError: name 'create_png' is not defined
+Traceback (most recent call last):
+  File "CAE_main.py", line 77, in <module>
+    trainer.train_model(train_dataloader, test_dataloader,num_epochs=config['pretrain_epoch'])
+  File "/home/anthonypark6904/genre_encoder/train_module.py", line 126, in train_model
+    self.train_epoch(epoch_idx, train_dataloader, test_dataloader)
+  File "/home/anthonypark6904/genre_encoder/train_module.py", line 144, in train_epoch
+    create_png(test_batch[0], recon_x)
+NameError: name 'create_png' is not defined

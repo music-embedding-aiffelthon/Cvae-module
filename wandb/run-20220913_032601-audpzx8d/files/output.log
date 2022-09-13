@@ -1,0 +1,10 @@
+
+Loading dataset...
+Traceback (most recent call last):
+  File "CAE_main.py", line 58, in <module>
+    dataset_list = top_n_genre(dataset_dir, 10)
+NameError: name 'top_n_genre' is not defined
+Traceback (most recent call last):
+  File "CAE_main.py", line 58, in <module>
+    dataset_list = top_n_genre(dataset_dir, 10)
+NameError: name 'top_n_genre' is not defined
